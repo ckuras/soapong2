@@ -3,7 +3,7 @@ package game
 import rl "vendor:raylib"
 
 main :: proc() {
-    rl.InitWindow(1280, 720, "My First Game")
+    rl.InitWindow(1280, 720, "SoaPong 2")
     rl.SetTargetFPS(144)
 
     backgroundRec := rl.Rectangle{
