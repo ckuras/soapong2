@@ -14,6 +14,8 @@ python3 -m http.server 1738
 
 ## Build windows exe
 
+Do not try to build the exe via WSL. It will fail.
+
 ```batch
 rem Build
 cd soapong2/
