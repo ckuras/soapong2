@@ -1,6 +1,6 @@
 package game
 
-import rl "libs:/raylib"
+import rl "../libs/raylib"
 
 title :: "Soapong 2"
 window_width :: 1280
