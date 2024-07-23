@@ -1,0 +1,12 @@
+name: 'Odin raylib build'
+description: 'Build an Odin executable release'
+inputs:
+  package-dir:
+    description: 'Package directory in workspace'
+    required: false
+    default: '/'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - build /github/workspace${{ inputs.package-dir }}
