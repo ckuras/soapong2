@@ -14,5 +14,5 @@ jobs:
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: workspace_artifacts
-          path: ${{ github.workspace }}
+          name: SoaPong2
+          path: soapong2.exe
